@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="en">Discount per square</label>
+    <label lang="bg">Discount per square</label>
+
+    <version>1.0.0</version>
+    <copyright>Copyright (c) 2021, InLink Ltd.</copyright>
+    <author>InLink Ltd.</author>
+    <link>http://in-link.com/</link>
+    <license>MIT</license>
+    <compatibility minVersion="5.4.0" />
+    <description lang="en">
+        Add discount per desired square meters in checkout.
+    </description>
+    <description lang="bg">
+        Add discount per desired square meters in checkout.
+    </description>
+    <changelog version="1.0.0">
+        <changes lang="en">Initial version of plugin;</changes>
+        <changes lang="bg">Initial version of plugin;</changes>
+    </changelog>
+</plugin>

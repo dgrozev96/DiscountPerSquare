@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <elements>
+        <element required="true" type="number" scope="shop">
+            <name>value</name>
+            <label lang="en">Customer group || Discount value </label>
+            <label lang="bg">Customer group || Discount value</label>
+            <description lang="en">Apply discount after basket value is equal or more than this value</description>
+            <description lang="bg">Apply discount after basket value is equal or more than this value</description>
+        </element>
+        <element required="true" type="number" scope="shop">
+            <name>amount</name>
+            <label lang="en">Customer group || Discount amount (%)</label>
+            <label lang="bg">Customer group || Discount amount (%)</label>
+            <description lang="en">Discount amount applied to basket.</description>
+            <description lang="bg">Discount amount applied to basket.</description>
+        </element>
+
+
+        <element required="true" type="number" scope="shop">
+            <name>valueH</name>
+            <label lang="en">Business group || Discount value</label>
+            <label lang="bg">Business group || Discount value</label>
+            <description lang="en">Apply discount after basket value is equal or more than this value</description>
+            <description lang="bg">Apply discount after basket value is equal or more than this value</description>
+        </element>
+        <element required="true" type="number" scope="shop">
+            <name>amountH</name>
+            <label lang="en">Business group || Discount amount (%)</label>
+            <label lang="bg">Business group || Discount amount (%)</label>
+            <description lang="en">Discount amount applied to basket.</description>
+            <description lang="bg">Discount amount applied to basket.</description>
+        </element>
+
+
+
+    </elements>
+</config>
